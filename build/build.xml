@@ -69,7 +69,7 @@
     </target>
 
     <target name="pkg-for-ci">
-        <property name="basename" value="sample_app"/>
+        <property name="basename" value="book_management"/>
         <property name="war.path" value="${pkg.dir}/${basename}.war"/>
         <war destfile="${war.path}" webxml="${web.inf.path}/web.xml">
             <lib dir="${lib.dir}/commons" includes="*.jar" />
