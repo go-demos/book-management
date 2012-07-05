@@ -10,7 +10,7 @@
         <element id="javaee-facet-resources" facet="sample_java_app/web/Web" />
         <element id="directory" name="WEB-INF">
           <element id="directory" name="classes">
-            <element id="module-output" name="sample_java_app" />
+            <element id="module-output" name="book_management" />
           </element>
           <element id="directory" name="lib">
             <element id="library" level="project" name="spring" />
@@ -193,7 +193,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/sample_java_app.iml" filepath="$PROJECT_DIR$/sample_java_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/book_management.iml" filepath="$PROJECT_DIR$/book_management.iml" />
     </modules>
   </component>
   <component name="ProjectResources">
@@ -209,7 +209,7 @@
   <component name="libraryTable">
     <library name="commons">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/lib/commons" />
+        <root url="file://$PROJECT_DIR$/../book_management/lib/commons" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -217,7 +217,7 @@
     </library>
     <library name="dbdeploy">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/lib/dbdeploy" />
+        <root url="file://$PROJECT_DIR$/../book_management/lib/dbdeploy" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -225,7 +225,7 @@
     </library>
     <library name="h2">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/lib/h2" />
+        <root url="file://$PROJECT_DIR$/../book_management/lib/h2" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -233,7 +233,7 @@
     </library>
     <library name="hibernate">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/lib/hibernate" />
+        <root url="file://$PROJECT_DIR$/../book_management/lib/hibernate" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -241,7 +241,7 @@
     </library>
     <library name="logging">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/lib/logging" />
+        <root url="file://$PROJECT_DIR$/../book_management/lib/logging" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -249,7 +249,7 @@
     </library>
     <library name="servlets">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/lib/servlets" />
+        <root url="file://$PROJECT_DIR$/../book_management/lib/servlets" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -257,7 +257,7 @@
     </library>
     <library name="spring">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/lib/spring" />
+        <root url="file://$PROJECT_DIR$/../book_management/lib/spring" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
@@ -268,7 +268,7 @@
     </library>
     <library name="velocity">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/lib/velocity" />
+        <root url="file://$PROJECT_DIR$/../book_management/lib/velocity" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
