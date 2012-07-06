@@ -78,6 +78,7 @@
             <lib dir="${lib.dir}/logging" includes="*.jar" />
             <lib dir="${lib.dir}/spring" includes="*.jar" />
             <lib dir="${lib.dir}/velocity" includes="*.jar" />
+            <lib dir="${lib.dir}/xstream" includes="*.jar" />
             <classes dir="${classes.dir}" includes="**" />
             <classes dir="${src.dir}" includes="db/hibernate-mappings/**" />
             <webinf dir="${web.inf.path}" includes="**" />

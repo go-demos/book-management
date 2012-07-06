@@ -209,7 +209,7 @@
   <component name="libraryTable">
     <library name="commons">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/../book_management/lib/commons" />
+        <root url="file://$PROJECT_DIR$/lib/commons" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -217,7 +217,7 @@
     </library>
     <library name="dbdeploy">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/../book_management/lib/dbdeploy" />
+        <root url="file://$PROJECT_DIR$/lib/dbdeploy" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -225,7 +225,7 @@
     </library>
     <library name="h2">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/../book_management/lib/h2" />
+        <root url="file://$PROJECT_DIR$/lib/h2" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -233,7 +233,7 @@
     </library>
     <library name="hibernate">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/../book_management/lib/hibernate" />
+        <root url="file://$PROJECT_DIR$/lib/hibernate" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -241,7 +241,7 @@
     </library>
     <library name="logging">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/../book_management/lib/logging" />
+        <root url="file://$PROJECT_DIR$/lib/logging" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -249,7 +249,7 @@
     </library>
     <library name="servlets">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/../book_management/lib/servlets" />
+        <root url="file://$PROJECT_DIR$/lib/servlets" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -257,7 +257,7 @@
     </library>
     <library name="spring">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/../book_management/lib/spring" />
+        <root url="file://$PROJECT_DIR$/lib/spring" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
@@ -268,11 +268,19 @@
     </library>
     <library name="velocity">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/../book_management/lib/velocity" />
+        <root url="file://$PROJECT_DIR$/lib/velocity" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
       <jarDirectory url="file://$PROJECT_DIR$/lib/velocity" recursive="false" />
+    </library>
+    <library name="xstream">
+      <CLASSES>
+        <root url="file://$PROJECT_DIR$/lib/xstream" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+      <jarDirectory url="file://$PROJECT_DIR$/lib/xstream" recursive="false" />
     </library>
   </component>
 </project>
