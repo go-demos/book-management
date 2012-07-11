@@ -28,7 +28,7 @@ public class BooksController {
     @RequestMapping(value = "/books", method = RequestMethod.GET)
     public ModelAndView allBooks(HttpServletRequest request) {
         Map model = new HashMap();
-        HttpSession session = request.getSession(false);
+        HttpSession session = request.getSession();
         if (session != null) {
             model.put("message", session.getAttribute("flash"));
             session.removeAttribute("flash");
