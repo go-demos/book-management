@@ -52,10 +52,15 @@
         <mkdir dir="${sql.dir.out}" />
     </target>
 
-    <target name="build-db-baseline">
+    <target name="cleanup-db">
         <exec_sql src="${sql.schema.dir}/cleaupDatabase.sql" onerror="continue"/>
+    </target>
+
+    <target name="create-db-deploy-tables">
         <exec_sql src="${sql.schema.dir}/createVersionTables.sql" onerror="continue" />
     </target>
+
+    <target name="build-db-baseline" depends="cleanup-db, create-db-deploy-tables"/>
 
     <target name="execute-delta-script">
         <exec_sql src="${sql.dir.out}/db-deltas.sql" onerror="abort" />
@@ -74,7 +79,7 @@
 
     <target name="initialize" depends="init, build-db-baseline" description="Build the initial db schema" />
 
-    <target name="apply-deltas" depends="init, generate-delta-script, execute-delta-script" />
+    <target name="apply-deltas" depends="init, create-db-deploy-tables, generate-delta-script, execute-delta-script" />
 
     <target name="rebuild-db" depends="init, initialize, generate-delta-script, execute-delta-script"
             description="Rebuild the database, apply deltas" />
